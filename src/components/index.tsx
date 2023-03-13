@@ -1,0 +1,6 @@
+export { Navbar as Navbar } from './navbar'
+export { Hero as Hero } from './hero'
+export { Skills as Skills } from './skills'
+export { Projects as Projects } from './projects'
+export { About as About } from './about'
+export { Footer as Footer } from './footer'
