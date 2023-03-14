@@ -1,6 +1,6 @@
 import React from 'react'
 import  Project  from './project'
-import panaverse from '../assets/panaverse.png'
+import panaverse from '../assets/Panaverse.png'
 import robo from '../assets/robo.png'
 import quiz from '../assets/quiz.png'
 import tstodo from '../assets/tstodo.png'
