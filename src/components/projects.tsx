@@ -29,7 +29,7 @@ export const Projects = () => {
        <Project
       image =  {quiz}
       onoma = "Quiz Application"
-      link="https://www.quiz-application-mahadbaig.web.app/"/>
+      link="https://quiz-application-mahadbaig.web.app/"/>
       <Project
       image =  {robo}
       onoma = "React Robo Friends"
