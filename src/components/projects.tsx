@@ -1,6 +1,9 @@
 import React from 'react'
 import  Project  from './project'
-import image1 from '../assets/hero.jpg'
+import panaverse from '../assets/panaverse.png'
+import robo from '../assets/robo.png'
+import quiz from '../assets/quiz.png'
+import tstodo from '../assets/tstodo.png'
 
 export const Projects = () => {
   return (
@@ -20,29 +23,26 @@ export const Projects = () => {
       justify-between
       '>
       <Project
-      image =  {image1}
+      image =  {panaverse}
       onoma = "Panaverse DAO Website"
-      link="https://www.github.com/mahadbaig"/>
+      link="https://panaversedao-website.vercel.app/"/>
        <Project
-      image =  {image1}
-      onoma = "Todo Application"
-      link="https://www.github.com/mahadbaig"/>
+      image =  {quiz}
+      onoma = "Quiz Application"
+      link="https://www.quiz-application-mahadbaig.web.app/"/>
       <Project
-      image =  {image1}
+      image =  {robo}
       onoma = "React Robo Friends"
-      link="https://www.github.com/mahadbaig"/>
+      link="https://mahadbaig.github.io/react-robofriends/"/>
       <Project
-      image =  {image1}
-      onoma = "Modern Website UI"
-      link="https://www.github.com/mahadbaig"/>
-       <Project
+      image =  {tstodo}
+      onoma = "Typescript Todo App"
+      link="https://mahadbaig.github.io/typescript_todo/"/>
+       {/* <Project
       image =  {image1}
       onoma = "Meme Generator"
-      link="https://www.github.com/mahadbaig"/>
-      <Project
-      image =  {image1}
-      onoma = "Note Taking Application"
-      link="https://www.github.com/mahadbaig"/>
+      link="https://www.github.com/mahadbaig"/> */}
+      
       
       </main>
       </div>

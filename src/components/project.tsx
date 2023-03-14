@@ -13,8 +13,8 @@ const Project = (props:any) => {
     w-fit
     '>
       <Link href={link} target="_blank">
-      <div className=''>
-        <Image src={image} alt={"Image"} width="400" />
+      <div className='h-90'>
+        <Image src={image} alt={"Image"} width="420" />
       </div>
       
       <h2
